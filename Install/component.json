@@ -1,0 +1,38 @@
+{
+	"name" : "Auth",
+	"route" : "auth",
+	"description" : "<p>Fintech auth component</p>",
+	"module_type" : "components",
+	"app_type" : "fintech",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-components-tools-auth",
+	"class" : "Apps\\Fintech\\Components\\Auth\\AuthComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.7",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : [],
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		}
+	},
+	"menu" : "false",
+	"settings" : 
+	{
+		"mandatory" : true,
+		"needAuth" : "disabled"
+	},
+	"widgets" : []
+}
